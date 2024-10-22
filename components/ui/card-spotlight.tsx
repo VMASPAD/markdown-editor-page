@@ -1,4 +1,4 @@
-//@ts-nocheck
+ 
 "use client";
 
 import { useMotionValue, motion, useMotionTemplate } from "framer-motion";
@@ -24,7 +24,7 @@ export const CardSpotlight = ({
     clientX,
     clientY,
   }: ReactMouseEvent<HTMLDivElement>) {
-    let { left, top } = currentTarget.getBoundingClientRect();
+    const { left, top } = currentTarget.getBoundingClientRect();
 
     mouseX.set(clientX - left);
     mouseY.set(clientY - top);

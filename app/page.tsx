@@ -1,20 +1,17 @@
-//@ts-nocheck
+ 
 "use client";
 import BlurFade from "@/components/ui/blur-fade";
 import { BorderBeam } from "@/components/ui/border-beam";
 import GradualSpacing from "@/components/ui/gradual-spacing";
 import Meteors from "@/components/ui/meteors";
-import {
-  BellIcon,
+import { 
   CalendarIcon,
   FileTextIcon,
   GlobeIcon,
   InputIcon,
 } from "@radix-ui/react-icons";
 import Image from "next/image";
-import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
-import { useState } from "react";
-import { PinContainer } from "@/components/ui/3d-pin"; 
+import { BentoCard, BentoGrid } from "@/components/ui/bento-grid"; 
 import { Tab } from "./components/Tabs";
 import FlickeringGrid from "@/components/ui/flickering-grid";
 import { Square } from "lucide-react";
@@ -46,6 +43,7 @@ export default function Home() {
       description: "Write the way you want and the way you want", 
       background: <img src="https://portfoliotavm.com/markdown-editor/(3).gif" className="absolute   opacity-60" alt="Sintax"/>,
       className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
+      cta: "Learn more",
     },
     {
       Icon: GlobeIcon,
@@ -70,6 +68,7 @@ export default function Home() {
       name: "Calendar",
       href: "/",
       description: "Use the calendar to filter your files by date.", 
+      cta: "Learn more",
       background: <FlickeringGrid
       className="z-0 absolute inset-0 size-full  opacity-50"
       squareSize={4}

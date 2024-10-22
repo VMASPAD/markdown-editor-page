@@ -1,8 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Tabs } from "@/components/ui/tabs"; 
-import { useTheme } from "next-themes";
+import { Tabs } from "@/components/ui/tabs";  
 
 export function Tab() { 
   const tabs = [

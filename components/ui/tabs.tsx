@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 type Tab = {
   title: string;
   value: string;
-  content?: string | React.ReactNode | any;
+  content?: string | React.ReactNode ;
 };
 
 export const Tabs = ({

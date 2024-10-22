@@ -1,9 +1,6 @@
-//@ts-nocheck
-import { ReactNode } from "react";
-import { ArrowRightIcon } from "@radix-ui/react-icons";
 
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { ReactNode } from "react"; 
+import { cn } from "@/lib/utils"; 
 
 const BentoGrid = ({
   children,
@@ -29,9 +26,7 @@ const BentoCard = ({
   className,
   background,
   Icon,
-  description,
-  href,
-  cta,
+  description, 
 }: {
   name: string;
   className: string;
