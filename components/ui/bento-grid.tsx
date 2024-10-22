@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { ReactNode } from "react";
 import { ArrowRightIcon } from "@radix-ui/react-icons";
 

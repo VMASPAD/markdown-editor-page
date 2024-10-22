@@ -1,8 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Tabs } from "@/components/ui/tabs";
-import ShineBorder from "@/components/ui/shine-border";
+import { Tabs } from "@/components/ui/tabs"; 
 import { useTheme } from "next-themes";
 
 export function Tab() {
