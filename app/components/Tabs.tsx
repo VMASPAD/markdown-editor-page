@@ -4,8 +4,7 @@ import Image from "next/image";
 import { Tabs } from "@/components/ui/tabs"; 
 import { useTheme } from "next-themes";
 
-export function Tab() {
-  const theme = useTheme();
+export function Tab() { 
   const tabs = [
     {
       title: "Editor",
@@ -114,16 +113,4 @@ export function Tab() {
       <Tabs tabs={tabs} />
     </div>
   );
-}
-
-const DummyContent = () => {
-  return (
-    <Image
-      src="/icon.png"
-      alt="dummy image"
-      width="100"
-      height="100"
-      className=" "
-    />
-  );
-};
+} 
